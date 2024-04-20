@@ -13,7 +13,7 @@ permissions:
 jobs:
   deploy:
     name: Publish Gallery to Github Pages
-    if: ${{ github.repository != 'goya0016/github-pages-gallery' && github.event.head_commit.message != '' && github.event.head_commit.message != 'Initial commit' }}
+    if: ${{ github.repository != 'goya0016/_hobbyclicks_' && github.event.head_commit.message != '' && github.event.head_commit.message != 'Initial commit' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
